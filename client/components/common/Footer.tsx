@@ -16,10 +16,10 @@ const Footer: FC<Props> = ({ classNameName}) => {
         <div className="mt-4 md:mt-0 flex flex-col md:flex-row">
             <nav className="flex-1 flex flex-col items-center justify-center md:items-end md:border-r border-gray-100 md:pr-5">
                 <a aria-current="page" href="#" className="hover:text-gray-700 dark:hover:text-white">
-                    Components
+                    DAO Fund Team
                 </a>
                 <a aria-current="page" href="#" className="hover:text-gray-700 dark:hover:text-white">
-                    Contacts
+                    About
                 </a>
                 <a aria-current="page" href="#" className="hover:text-gray-700 dark:hover:text-white">
                     Customization
@@ -28,7 +28,7 @@ const Footer: FC<Props> = ({ classNameName}) => {
             <div className="md:hidden mt-4 mx-auto w-11 h-px rounded-full">
             </div>
             <div className="mt-4 md:mt-0 flex-1 flex items-center justify-center md:border-r border-gray-100">
-                <a className="hover:text-primary-gray-20" href="https://github.com/Charlie85270/tail-kit">
+                <a className="hover:text-primary-gray-20" href="https://github.com/dtobi59/dao-fund">
                     <span className="sr-only">
                         View on GitHub
                     </span>
@@ -51,12 +51,12 @@ const Footer: FC<Props> = ({ classNameName}) => {
             </div>
             <div className="mt-7 md:mt-0 flex-1 flex flex-col items-center justify-center md:items-start md:pl-5">
                 <span className="">
-                    © 2021
+                    © 2022 
                 </span>
                 <span className="mt-7 md:mt-1">
-                    Created by
-                    <a className="underline hover:text-primary-gray-20" href="https://www.linkedin.com/in/crabiller/">
-                        Charlie
+                    Created by 
+                     <a className="ml-1 underline hover:text-primary-gray-20" href="https://www.linkedin.com/in/crabiller/">
+                        DaoFund Team
                     </a>
                 </span>
             </div>
